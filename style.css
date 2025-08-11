@@ -1,20 +1,61 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #bebcbc;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    text-align: center;
-    margin-top: 5vh;
-}
-
-body{
-    background: linear-gradient(
-        235deg,
-        #1d0138,
-        #090057,
-        #00336d
-    );
+body {
+    background: linear-gradient(235deg,
+            #1d0138,
+            #090057,
+            #00336d);
     background-attachment: fixed;
+}
+
+.header {
+    background-color: #1d0138;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .right{
+    display: flex;
+    gap: 20px;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.tech-club-promo {
+    max-width: 800px;
+    margin: 10px auto 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #06767e50;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tech-club-promo h2 {
+    margin-bottom: 15px;
+}
+
+.tech-club-promo p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.tech-club-promo ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.tech-club-promo ul li {
+    margin-bottom: 10px;
 }
